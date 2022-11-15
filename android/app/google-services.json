@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "653029612903",
+    "project_id": "noor-2253f",
+    "storage_bucket": "noor-2253f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653029612903:android:bbe15cb36d840aa17ba3c2",
+        "android_client_info": {
+          "package_name": "com.example.noor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653029612903-nvrm8mqrra6ssrk090ujf94b2grj2iqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhRDTdWP3ODSPvIL4MYK-4_ZZlXN7kCwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653029612903-nvrm8mqrra6ssrk090ujf94b2grj2iqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
