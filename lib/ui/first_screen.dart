@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
+import '../controller/realtime_daatabase.dart';
 
 class FirstScreen extends StatelessWidget {
-  const FirstScreen({super.key});
-
+  FirstScreen({super.key});
+  RealtimeDataBase db = Get.put(RealtimeDataBase());
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,6 +20,7 @@ class FirstScreen extends StatelessWidget {
         child: Center(
           child: InkWell(
             onTap: () {
+              db.setDataToUser();
               Navigator.pop(context);
             },
             child: Container(

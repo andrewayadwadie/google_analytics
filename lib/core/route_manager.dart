@@ -16,7 +16,7 @@ class RouteGenerator {
       case Routes.homeScreen:
         return MaterialPageRoute(builder: (_) => HomeScreen());
       case Routes.firstScreen:
-        return MaterialPageRoute(builder: (_) => const FirstScreen());
+        return MaterialPageRoute(builder: (_) => FirstScreen());
       case Routes.secondScreen:
         return MaterialPageRoute(builder: (_) => const SecondScreen());
 
